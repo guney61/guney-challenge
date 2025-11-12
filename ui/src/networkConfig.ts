@@ -8,14 +8,14 @@ import { createNetworkConfig } from "@mysten/dapp-kit";
  * ```bash
  *  Published Objects:
  * ┌──
- * │ PackageID: 0x3671b5e095d53120b798ad1b7ed9c22be6af2c148ba674ec53b972c29378cd35
+ * │ PackageID: 0xe58faa3bd08230d083783b46cc2895da2fed947c960cacb347e95c3a018fc1ce
  * │ Version: 1
  * │ Digest: bn8Vs7TgMzhyPN4GtjDdjTfufX67dErp4926bQeCSFr
  * │ Modules: arena, hero, marketplace
  * └──
  */
 const PACKAGE_ID =
-  "0x3671b5e095d53120b798ad1b7ed9c22be6af2c148ba674ec53b972c29378cd35";
+  "0xe58faa3bd08230d083783b46cc2895da2fed947c960cacb347e95c3a018fc1ce";
 
 const { networkConfig, useNetworkVariable, useNetworkVariables } =
   createNetworkConfig({
